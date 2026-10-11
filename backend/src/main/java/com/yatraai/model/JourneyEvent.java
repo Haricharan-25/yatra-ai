@@ -1,0 +1,12 @@
+package com.yatraai.model;
+
+public enum JourneyEvent {
+    ROUTE_UPCOMING_LANDMARK,
+    ROUTE_UPCOMING_ATTRACTION,
+    CITY_ENTERED,
+    CITY_CHANGED,
+    NEARBY_MAJOR_LANDMARK,
+    NEARBY_ATTRACTION,
+    REGION_CHANGED,
+    NONE
+}

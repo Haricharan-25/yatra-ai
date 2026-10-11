@@ -1,0 +1,36 @@
+# Root & IDEs
+.vscode/
+.idea/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env*.local
+
+# Backend (Maven)
+backend/target/
+**/target/
+*.class
+backend/.flattened-pom.xml
+
+# Mobile (Node & Expo)
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+**/node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+expo-env.d.ts
+
+# Generated Native Builds
+mobile/android/
+mobile/ios/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
